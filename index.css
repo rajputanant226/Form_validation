@@ -1,0 +1,45 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 10px solid #c6c2c2;
+  background-color: #bd7;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #161515;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(86, 122, 86);
+  color: #dfdcdc;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
